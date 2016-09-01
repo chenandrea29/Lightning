@@ -1,11 +1,4 @@
-int startX;
-int startY;
-int endX;
-int endY;
-int r;
-int g;
-int b;
-int mode = 0;
+int startX, startY, endX, endY, r, g, b, mode;
 
 void setup() {
   size(500, 500);
@@ -109,4 +102,3 @@ void manyLightnings2() {
 		startY = endY;
 	}
 }
-
